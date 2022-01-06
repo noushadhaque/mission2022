@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+/* ============common css================= */
+.text-part{
+    width: 54%;
+    margin-top: 52px;
+}
+
+.text-part h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.text-part span{
+    display: block;
+}
+
+.text-part p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #3E3E3E;
+    margin: 10px 0;
+}
+
+.text-part a{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: #05D561;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+/* ============common css============================== */
+
+/* =================header part start================== */
+/* #header-part{
+    margin: 100px 0;
+} */
+
+#header-part .header-main{
+    display: flex;
+}
+
+#header-part .header-main .header-text{
+    width: 50%;
+    margin: 150px 0 100px 0;
+}
+
+#header-part .header-main .header-text .top-text{
+    border-left: 5px solid #05D561;
+}
+
+#header-part .header-main .header-text h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    font-weight: regular;
+    color: #333333;
+    margin-left: 20px;
+}
+
+#header-part .header-main .header-text .mission{
+    color: #FFAD5A;
+}
+
+#header-part .header-main .header-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #434343;
+    margin: 20px 0;
+}
+
+#header-part .header-main .header-text a{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 28px;
+    background-color: #05D561;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.75);
+}
+
+#header-part .header-main .header-text .scroll-down{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #434343;
+    margin-top: 30px;
+}
+
+#header-part .header-main .header-img{
+    width: 50%;
+    margin-left: 50px;
+}
+
+#header-part .header-main .header-img img{
+    width: 75%;
+}
+/* =================header part end==================== */
+/* =================mission part start================= */
+#mission-part{
+    padding: 50px 0;
+}
+
+#mission-part .mission-title h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #13103A;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#mission-part .mission-title .year{
+    color: #FFAD5A;
+}
+
+#mission-part .mission-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+#mission-part .mission-details .item{
+    width: 32%;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+#mission-part .mission-details .item img{
+    width: 30%;
+}
+
+#mission-part .mission-details .item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin: 10px 0;
+}
+
+#mission-part .mission-details .item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #424242;
+}
+
+#mission-part .mission-details .mission{
+    background-color: #17a5b8;
+    opacity: 0.8;
+}
+
+#mission-part .mission-details .vision{
+    background-color: #fca7a7;
+    opacity: 0.8;
+}
+
+#mission-part .mission-details .goals{
+    background-color: #b49d5d;
+}
+/* =================mission part end=================== */
+/* =================develop part start================= */
+
+#develop-part .develop-main{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+#develop-part .develop-main .image-part{
+    width: 40%;
+    position: relative;
+}
+
+#develop-part .develop-main .image-part img{
+    width: 90%;
+}
+
+#develop-part .develop-main .image-part .shape1{
+    position: absolute;
+    left: -110px;
+    top: 45%;
+    transform: translateY(-50%);
+    z-index: -1;
+    width: 50%;
+}
+
+#develop-part .develop-main .image-part .shape2{
+    position: absolute;
+    bottom: -15%;
+    left: -100px;
+    width: 30%;
+    z-index: -1;
+}
+
+
+
+/* =================develop part end=================== */
+/* =================community part start=============== */
+#community-part .community-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#community-part .community-main .image-part {
+    width: 40%;
+    position: relative;
+}
+
+#community-part .community-main .image-part img{
+    width: 100%;
+}
+
+#community-part .community-main .image-part .shape1{
+    position: absolute;
+    right: -78px;
+    bottom: -68px;
+    width: 50%;
+    z-index: -1;
+}
+/* =================community part end================= */
+/* =================footer part start============= */
+#footer-part{
+    text-align: center;
+    padding: 60px;
+    margin-top: 80px;
+    background-color: #0B0D17;
+}
+
+#footer-part h1{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#footer-part .year{
+    color: #05D561;
+}
+
+#footer-part p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #D9DBE1;
+}
+/* =================footer part end=============== */
